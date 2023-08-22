@@ -1,0 +1,13 @@
+.description{
+    position: relative;
+    width: 80%;
+    min-height:max-content ;
+    left: 10%;
+    top: 150px;
+    background-color: #fff;
+}
+
+.description-text pre{
+    width: 90%;
+    white-space:pre-wrap;
+}

@@ -1,0 +1,153 @@
+.nav-bar{
+    width: 100%;
+    height: 90px;
+    background-color:#f94e2f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1111111;
+}
+.nav-container{
+    width: 100%;
+    height: 1.2em;
+    display: block;
+}
+.nav-container a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    width: max-content;
+    position: relative;
+    left: 100px;
+    padding-right: 10px;
+    padding-left: 5px;
+    border-right: 1px rgb(231, 224, 224,.4) solid;
+}
+i{
+    margin-left: 4px;
+}
+.nav-bar-notice{
+    position: absolute;
+    width: 30%;
+    height: 1.4em;
+    display: flex;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    left: 60%;
+    /* line-height: 1.6em; */
+    justify-content: space-around;
+    top: 0.2em;
+}
+.nav-bar-notice a{
+    text-decoration: none;
+    color: #fff;
+}
+.sign-up,
+.sign-in
+{
+    font-weight: 400;
+    cursor: pointer;
+}
+.sign-up{
+    border-right: 1px rgb(231, 224, 224,.4) solid;
+    padding-right: 4px;
+
+}
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    top: 20px;
+    left: 100px;
+}
+.logo img{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.input{
+    position: absolute;
+    width: 58%;
+    left: 19%;
+    top: 33px;
+}
+.input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 33px;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 10px;
+    color: black !important;
+}
+.input button{
+    width: 50px;
+    height: 29px;
+    position: absolute;
+    right: 5px;
+    border: none;
+    outline: none;
+    background-color: #f94e2f;
+    top: 2px;
+    z-index: 1;
+}
+.input button:hover{
+    background-color: #f33919;
+}
+.input i{
+    
+    position: absolute;
+    right: 26px;
+    color: white;
+    top: 10px;
+    z-index: 2;
+    font-size: 12px;
+}
+ion-icon{
+    left: 81%; 
+    position: absolute;
+    font-size: 35px;
+    top: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.item-nav-bar{
+    width: 60%;
+    height: 1.2em;
+    position: relative;
+    top: 52px;
+    display: flex;
+    font-size: 11px;
+    left: 19%;
+    justify-content:flex-start;
+    color: #fff;
+    font-weight: 200;
+} 
+.item-nav-bar div{
+    width: max-content;
+    margin-right: 20px;
+   cursor: pointer;
+}
+.avatar{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.user{cursor: pointer;}
+.log-out{
+    position: absolute;
+   right: -19%;
+   cursor: pointer;
+}

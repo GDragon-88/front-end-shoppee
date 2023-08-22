@@ -1,0 +1,40 @@
+.comment{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    height: 400px;
+    background-color:#fff;
+    top: 160px;
+}
+.comment-text{
+    width: 90%;
+    height: max-content;
+    position: relative;
+    left: 5%;
+
+    top: 10px;
+}
+.comment-text img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+    position: relative;
+
+}
+.comment-text span{
+    position: relative;
+    left: 20px;
+    width: max-content;
+    height: 10px;
+    font-size: 13px;
+    padding-bottom: 9px;
+}
+.comment-text-content{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 13px;
+    border-bottom: 1px gray dashed;
+    margin-bottom: 25px;
+}

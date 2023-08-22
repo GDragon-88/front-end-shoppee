@@ -1,0 +1,96 @@
+.main-search{
+    position: relative;
+    top: 130px;
+    width: 80%;
+    left: 10%;
+   min-height: 300px;
+    
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-auto-rows: 260px;
+    gap: 5px;
+   
+}
+.main-search-item{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    background-color: #fff;
+}
+.main-search-item-img{
+    width: 100%;
+    position: absolute;
+    height: 58%;
+    top: 0;
+   
+}
+.main-search-item-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.main-search-item-text{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 59%;
+
+    display: inline-block;
+    
+}
+.main-search-item-text span{
+    width: 90%;
+    position: relative;
+    height: 100%;
+    left: 5%;
+    font-size: 12px;
+    word-spacing: -0.5px;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 20px;
+    color: black;
+    font-weight: 400;
+
+}
+.main-search-item-rate{
+    position: absolute;
+    width: 50%;
+    top: 88%;
+    height: 20px;
+    left: 9%;
+    display: flex;
+    
+}
+.rate-star{
+    position: relative;
+    letter-spacing: -20px;
+    font-size: 11px;
+    line-height: 20px;
+}
+.rate-star svg{
+    margin-left: -5px;
+}
+.main-search-item-rate p {
+    position: absolute;
+    font-size: 10px;
+    line-height: 20px;
+    left: 90%;
+    width: max-content;
+    top: 2px;
+    color: black;
+    opacity: .5;
+}
+.main-search-item-price{
+    position: absolute;
+    width: 80%;
+    left: 5%;
+    top: 77%;
+    color: orangered;
+
+}

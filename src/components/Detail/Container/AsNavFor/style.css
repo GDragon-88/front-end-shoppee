@@ -1,0 +1,94 @@
+ .detail-item{
+    width: 100%;
+    height: 400px;
+    background-color: bisque;
+ }
+.btn-back{
+    width: 50px;
+    height: 33px;
+    position: absolute;
+    top: 200px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+}
+.btn-next{
+    width: 50px;
+    height: 33px;
+    position: absolute;
+    top: 200px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    right: 0;
+}
+.detail-img-item{
+    position: relative;
+    width: 100%;
+    top: 10px;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+    grid-auto-rows: 100px;
+}
+.detail-img-item-child{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+}
+.detail-img-item-child:hover{
+    border: 0.5px solid red;
+    cursor: pointer;
+}
+.detail-left-social{
+    position: relative;
+    width: 100%;
+    height: 30px;
+  
+    top: 25px;
+    display: flex;
+}
+.social{
+    width: 50%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+  
+    border-right: 0.4px solid rgb(59, 56, 56,.4);
+}
+.social span{
+    line-height: 30px;
+    margin-left: 30px;
+}
+.social img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.social img:nth-child(4){
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.like{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    line-height: 30px;
+}
+.like i{
+    line-height: 30px;
+    margin-left: 35%;
+    color: red;
+    font-size: 23px;
+}
+.like span{
+    line-height: 30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
